@@ -64,4 +64,21 @@ I created some additional visualisations which I thought gave further insight an
 
 * **[Optional Challenge](#Optional-Challenge):** Deploy your notebook to Amazon SageMaker.
 
+The challenge for this homework assignment has been completed and the crypto_clustering_sm.ipynb notebook has been deployed to Amazon Sagemaker. All visualisation have been converted to use the Altair library and all references to hvplot have been removed. Below are images captured for all visualisations created by the Notebook deployed on AWS SageMaker.
+
+  - Use the altair scatter plot to create the Elbow Curve.
+
+  ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/altair_elbow_curve.png?raw=true)
+
+    - Use the altair scatter plot to visualize the clusters. Since this is a 2D-Scatter, use x="PC 1" and y="PC 2" for the axes, and add the following columns as tool tips: "CoinName", "Algorithm", "TotalCoinsMined", "TotalCoinSupply".
+
+  ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Altair_Clusters_PC1_vs_PC2.png?raw=true)
+
+    - Use the altair scatter plot to visualize the tradable cryptocurrencies using  x="TotalCoinsMined" and y="TotalCoinSupply" for the axes.
+
+  ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Altair_Clusters_TCM_vs_TCS.png?raw=true)
+
+      - Show the table of current tradable cryptocurrencies using the display() command.
+
+  ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/crypto_class_table_using_display.PNG?raw=true)
 
