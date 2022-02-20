@@ -70,13 +70,13 @@ I have accomplished the following main tasks:
 
   - **Use the altair scatter plot to visualize the clusters.** 
   
-    Since this is a 2D-Scatter, use x="PC 1" and y="PC 2" for the axes, and add the following columns as tool tips: "CoinName", "Algorithm", "TotalCoinsMined", "TotalCoinSupply".
+    Since this is a 2D-Scatter, use x="PC 1" and y="PC 2" for the axes, and add the following columns as tool tips: "CoinName", "Algorithm", "TotalCoinsMined", "MaxSupply".
 
   ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Altair_Clusters_PC1_vs_PC2.png?raw=true)
 
   - **Use the altair scatter plot to visualize the tradable cryptocurrencies**
   
-    Since this is a 2D-Scatter, use x="TotalCoinsMined" and y="TotalCoinSupply" for the axes,  and add the following columns as tool tips: "CoinName", "Algorithm", "TotalCoinsMined", "TotalCoinSupply"
+    Since this is a 2D-Scatter, use x="TotalCoinsMined" and y="MaxSupply" for the axes,  and add the following columns as tool tips: "CoinName", "Algorithm", "TotalCoinsMined", "MaxSupply"
 
   ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Altair_Clusters_TCM_vs_TCS.png?raw=true)
 
