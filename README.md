@@ -15,6 +15,8 @@ You are a Senior Manager at the Advisory Services team on a [Big Four firm](http
 
 In this homework assignment, I have put my new unsupervivsed learning and Amazon SageMaker skills into action by clustering cryptocurrencies and creating plots to present my results.
 
+    ***IMPORTANT NOTE: The API has been updated since this homework assignment was created such that it now returns "TotalCoinSupply as "MaxSupply". Please note this when examining code, results and visualisations that anywhere "MaxSupply" is used, it can be interchanged with "TotalCoinSupply" due to the changes in the key labelling returned by the API.*** 
+
 I have accomplished the following main tasks:
 
 * **[Data Preprocessing](#Data-Preprocessing):** Prepare data for dimension reduction with PCA and clustering using K-Means.
