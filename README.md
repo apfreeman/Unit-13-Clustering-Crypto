@@ -15,7 +15,7 @@ You are a Senior Manager at the Advisory Services team on a [Big Four firm](http
 
 In this homework assignment, I have put my new unsupervivsed learning and Amazon SageMaker skills into action by clustering cryptocurrencies and creating plots to present my results.
 
-    ***IMPORTANT NOTE: The API has been updated since this homework assignment was created such that it now returns "TotalCoinSupply as "MaxSupply". Please note this when examining code, results and visualisations that anywhere "MaxSupply" is used, it can be interchanged with "TotalCoinSupply" due to the changes in the key labelling returned by the API.*** 
+  ***IMPORTANT NOTE: The API has been updated since this homework assignment was created such that it now returns "TotalCoinSupply as "MaxSupply". Please note this when examining code, results and visualisations that anywhere "MaxSupply" is used, it can be interchanged with "TotalCoinSupply" due to the changes in the key labelling returned by the API.*** 
 
 I have accomplished the following main tasks:
 
@@ -43,7 +43,7 @@ I have accomplished the following main tasks:
 
 * **[Visualizing Results](#Visualizing-Results):** Create some plots and data tables to present your results.
 
-  - **Visualisation for Clusters (TotalCoinsMined vs TotalCoinsSupply)**
+  - **Visualisation for Clusters (TotalCoinsMined vs MaxSupply)**
 
   ![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Clusters_TCM_vs_TCS.png?raw=true)
 
